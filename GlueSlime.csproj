@@ -79,5 +79,8 @@
   <ItemGroup>
     <EmbeddedResource Include="glue_slime_plort.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
